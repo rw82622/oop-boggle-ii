@@ -1,12 +1,12 @@
 # Boggle Challenge Part 2: Word Checker
 
-##Summary
+## Summary
 
 We are going to build off our last Boggle challenge by using our 'BoggleBoard' generator to check the existence of a word against our generated boggle board.
 
 The only rule is that the same dice cannot be reused in the same word. For example, if the word is "apple", you cannot use a die that landed as "P" twice. Instead the "P" must be on the board twice.
 
-We are going to implement a 'BoggleBoard#include?' method":
+We are going to implement a `BoggleBoard#include?` method":
 
 ```ruby
 board.include?("apple") # => true or false, depending
@@ -17,7 +17,7 @@ board.include?("apple") # => true or false, depending
 
 Stop! I know what you're about to do. I've done it many times before. You're about to jump in to writing code.
 
-![](http://i.imgur.com/LaJ9Kmo.gif)
+![Admiral Ackbar from star wars saying its a trap](http://i.imgur.com/LaJ9Kmo.gif)
 
 Instead, get out some paper and draw out a 4x4 Boggle Board. Fill it with letters (perhaps utilizing your brand-spanking new generator). Pick a gibberish word (makes it easier to check letter by letter) and check if it's on the board.
 
