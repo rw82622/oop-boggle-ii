@@ -37,12 +37,6 @@ What, if any, instance methods do you need to define? Would your algorithm be ea
 
 What are the tradeoffs between storing the board as a 4x4 array of arrays vs. a single 16 element array?
 
-## Step 3: Deep dive! (Optional)
-
-Let's make 'include?' work against real boggle rules! Words no longer have to be in continuous lines. Instead they can be connected in any way, in any order (diagonally, vertically, horizontally, in any order on the board so long as they exist).
-
-What needs to change to make this work? Does the structure of your board need to change? It might be wise to try modeling this before coding.
-
 ## Resources
 
 * [Boggle on Wikipedia](http://en.wikipedia.org/wiki/Boggle)
