@@ -2,18 +2,18 @@
 
 ## Summary
 
-We are going to build off our last Boggle challenge by using our 'BoggleBoard' generator to check the existence of a word against our generated boggle board.
+We are going to build off our last Boggle challenge by using our `BoggleBoard` generator to check the existence of a word against our generated boggle board.
 
 The only rule is that the same dice cannot be reused in the same word. For example, if the word is "apple", you cannot use a die that landed as "P" twice. Instead the "P" must be on the board twice.
 
-We are going to implement a `BoggleBoard#include?` method":
+We are going to implement a `BoggleBoard#include?` method:
 
 ```ruby
 board.include?("apple") # => true or false, depending
 ```
 **Note**: This method shouldn't care whether the word is **actually** a word in the dictionary.
 
-## Step 1: Pseudocode
+### Step 1: Pseudocode
 
 Stop! I know what you're about to do. I've done it many times before. You're about to jump in to writing code.
 
@@ -29,7 +29,7 @@ Write your pseudocode for the algorithm.
 
 **NOTE**: Only words with 3 letters or more count.
 
-## Step 2: Implement "BoggleBoard#include?"
+### Step 2: Implement "BoggleBoard#include?"
 
 It's time to translate your pseudocode to ruby.
 
