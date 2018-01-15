@@ -37,6 +37,12 @@ What, if any, instance methods do you need to define? Would your algorithm be ea
 
 What are the tradeoffs between storing the board as a 4x4 array of arrays vs. a single 16 element array?
 
+## Running Tests
+Up to this point, we've been writing driver code to see whether or not our code works. Today, we're starting to use [RSPEC](http://rspec.info/). Here's how to install and run your specs:
+1. `gem install rspec` (you may need sudo)
+1. Instead of running `ruby boggle_board_spec.rb`, we're going to `rspec boggle_board_spec.rb`
+
+
 ## Resources
 
 * [Boggle on Wikipedia](http://en.wikipedia.org/wiki/Boggle)
