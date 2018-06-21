@@ -1,13 +1,13 @@
 # You should re-use and modify your old BoggleBoard class
 # to support the new requirements
 
-class BoggleBoard
-  def initialize
-  end
+class BoggleBoard:
+	def __init__(self):
 
-  def shake!
-  end
 
-  def to_s
-  end
-end
+	def shake(self):
+
+	
+	def __str__(self):
+  
+

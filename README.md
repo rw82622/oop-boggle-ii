@@ -8,8 +8,8 @@ The only rule is that the same dice cannot be reused in the same word. For examp
 
 We are going to implement a `BoggleBoard#include?` method:
 
-```ruby
-board.include?("apple") # => true or false, depending
+```python
+board.include("apple") # => true or false, depending
 ```
 **Note**: This method shouldn't care whether the word is **actually** a word in the dictionary.
 
@@ -31,7 +31,7 @@ Write your pseudocode for the algorithm.
 
 ### Step 2: Implement "BoggleBoard#include?"
 
-It's time to translate your pseudocode to ruby.
+It's time to translate your pseudocode to python.
 
 What, if any, instance methods do you need to define? Would your algorithm be easier to write if your board were stored in a different way?
 
