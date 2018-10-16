@@ -6,10 +6,10 @@ We are going to build off our last Boggle challenge by using our `BoggleBoard` g
 
 The only rule is that the same dice cannot be reused in the same word. For example, if the word is "apple", you cannot use a die that landed as "P" twice. Instead the "P" must be on the board twice.
 
-We are going to implement a `BoggleBoard#include?` method:
+We are going to implement a `BoggleBoard#include` method:
 
 ```python
-board.include("apple") # => true or false, depending
+board.include("apple") # => true or false
 ```
 **Note**: This method shouldn't care whether the word is **actually** a word in the dictionary.
 
@@ -29,9 +29,9 @@ Write your pseudocode for the algorithm.
 
 **NOTE**: Only words with 3 letters or more count.
 
-### Step 2: Implement "BoggleBoard#include?"
+### Step 2: Implement "BoggleBoard#include"
 
-It's time to translate your pseudocode to python.
+It's time to translate your pseudocode to Python.
 
 What, if any, instance methods do you need to define? Would your algorithm be easier to write if your board were stored in a different way?
 
