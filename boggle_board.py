@@ -6,8 +6,3 @@ class BoggleBoard:
 
 
 	def shake(self):
-
-	
-	def __str__(self):
-  
-
