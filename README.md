@@ -1,17 +1,7 @@
 # Boggle Challenge Part 2: Word Checker
 
 ## Summary
-
-We are going to build off our last Boggle challenge by using our `BoggleBoard` generator to check the existence of a word against our generated boggle board.
-
-The only rule is that the same dice cannot be reused in the same word. For example, if the word is "apple", you cannot use a die that landed as "P" twice. Instead the "P" must be on the board twice.
-
-We are going to implement a `BoggleBoard#include` method:
-
-```python
-board.include("apple") # => true or false
-```
-**Note**: This method shouldn't care whether the word is **actually** a word in the dictionary.
+While real Boggle includes all words 3 letters or greater in a variety of combinations (i.e., you can zig zag through the board), we're just starting to learn Object Orientation. In this challenge, we are going to build off our last Boggle challenge by using our `BoggleBoard` generator to check the existence of a 4-letter word against our generated boggle board. Essentially, we need to get all 4-letter combinations of letters on the board (vertical, horizontal, diagonal - all forwards and backwards) and see if our 4-letter word that we pass in is on that board.
 
 ### Step 1: Pseudocode
 
@@ -23,13 +13,12 @@ Instead, get out some paper and draw out a 4x4 Boggle Board. Fill it with letter
 
 Reflect on your mental process. How did you do decide if the word was on the board or not?
 
-For our first iteration, let's try the most basic way to verify a word in a continuous line. i.e. vertically, horizontally, and diagonally.
-
 Write your pseudocode for the algorithm.
 
-**NOTE**: Only words with 3 letters or more count.
-
-### Step 2: Implement "BoggleBoard#include"
+### Step 2: Implement "BoggleBoard#include_word"
+```python
+board.include_word("pear") # => True or False
+```
 
 It's time to translate your pseudocode to Python.
 
@@ -37,8 +26,6 @@ What, if any, instance methods do you need to define? Would your algorithm be ea
 
 What are the tradeoffs between storing the board as a 4x4 array of arrays vs. a single 16 element array?
 
-
 ## Resources
-
 * [Boggle on Wikipedia](http://en.wikipedia.org/wiki/Boggle)
 * [Play Boggle online](http://www.wordplays.com/boggle)
